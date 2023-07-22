@@ -46,10 +46,6 @@ img {
   height: auto;
 }
 
-button {
-  cursor: pointer;
-}
-
 a {
   text-decoration: none;
 }
@@ -166,6 +162,8 @@ a {
 
 .hero-button {
   display: block;
+  min-width: 169px;
+  height: 56px;
   margin: 0 auto;
   border: none;
   border-radius: 4px;
@@ -176,6 +174,7 @@ a {
   color: var(--white);
   background-color: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -328,10 +327,10 @@ border-radius: 0px 0px 4px 4px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
-  border: 1px solid var(--color-cornflower);
+  border: 1px solid var(--cornflower);
   border-radius: 4px;
   padding: 12px 24px;
+  cursor: pointer;
 }
 
 .menu-btn:hover,
